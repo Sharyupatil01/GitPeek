@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitPeek</title>
+    <link
+    rel="icon"
+    href="images/chai.png"
+    type="image/x-icon"
+  />
+  <link rel="manifest" href="./Images/site.webmanifest" />
+
+
+    
+
+
+ <!-- Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link
+   href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+   rel="stylesheet"
+ />
+
+
+
+
+
+    <!-- Css and js imported -->
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js" defer></script> 
+    
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <!-- header -->
+             <header class="header">
+
+                <h1 class="title">GIT PEEK</h1>
+                <div class="btn" id="modeBtn">
+                    <p id="modetext">Light</p>
+                    <div class="icondarkmode">
+                        <img 
+                        src="./images/sun-icon.svg"
+                        alt=""
+                        id="modeIcon"
+                        loading="lazy"
+                        />
+                    </div>
+                </div>
+
+             </header>
+
+             <!-- Search Container -->
+              <main>
+                <div class="searchcontainer">
+                    <input 
+                    type="text"
+                    id="input"
+                    placeholder="Enter a Github username.."
+                    required
+                    autofocus
+                    />
+                    <div class="error">
+                        <p id="noresult">
+                            no search results 
+                        </p>
+                    </div>
+                    <button id="btn">
+                        Search
+                    </button>
+
+                </div>
+                <!-- Search bar end -->
+
+
+                <!-- profile container -->
+
+                <div class="profilecontainer">
+                    <div class="profilecontent">
+                        <div class="profileheader">
+                            <img
+                            id="userImage"
+                            loading="lazy"
+
+                            />
+                            <div class="profileInfoWrapper">
+                                <div class="profileName">
+                                    <h2 id="name"></h2>
+                                    <a
+                                    href=""
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    id="username"
+                                   
+                                    ></a> 
+                                </div>
+                                <p id="joindate"></p>
+                            </div>
+
+                        </div>
+                        <p id="profileBio"></p>
+                        <div class="statsContainer">
+                            <div class="profilestats">
+                                <p class="statstitle">Repositary</p>
+                                <a id="repos"></a>
+
+                            </div>
+                            <div class="profilestats">
+                                <p class="statstitle">Followers</p>
+                                <a id="followers"></a>
+                            </div>
+                            <div class="profilestats">
+                                <p class="statstitle">Following</p>
+                                <a id="following"></a>
+                            </div>
+                        </div>
+
+                        <div class="profileFooter">
+                            <div class="profileInfo">
+                                <div class="bottomicon">
+                                    <img
+                                    src="./images/location-icon.svg"
+                                    alt=""
+                                    loading="lazy"
+                                    />
+                                </div>
+                               <p id="location"></p>
+                            </div>
+                            <div class="profileInfo">
+                                <div class="bottomicon">
+                                    <img
+                                    src="./images/website-icon.svg"
+                                    alt=""
+                                    loading="lazy"
+                                    />
+
+                                </div>
+                                <p id="website"></p>
+                            </div>
+                            <div class="profileInfo">
+                                <div class="bottomicon">
+                                    <img
+                                    src="./images/twitter-icon.svg"
+                                    alt=""
+                                    loading="lazy"
+                                    />
+                                </div>
+                                <p id="twitter"></p>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+              </main>
+
+
+
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
