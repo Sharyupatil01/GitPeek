@@ -18,7 +18,7 @@
 ✅ Responsive and clean **UI/UX**  
 
 ## 🛠️ Tech Stack  
-- **React.js** – Frontend UI  
+- **HTML,JS** – Frontend UI  
 - **Tailwind CSS** – Styling  
 - **GitHub API** – Fetching user data  
 - **Axios / Fetch API** – Handling API requests  
